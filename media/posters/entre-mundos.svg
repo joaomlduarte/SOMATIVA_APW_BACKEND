@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8e44ad"/>
+      <stop offset="0.75" stop-color="#12081f"/>
+    </linearGradient>
+    <radialGradient id="astro">
+      <stop offset="0" stop-color="#e3b8ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#e3b8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#fundo)"/>
+  <circle cx="337" cy="335" r="1.6" fill="#fff" opacity="0.75"/><circle cx="205" cy="103" r="1.2" fill="#fff" opacity="0.81"/><circle cx="382" cy="52" r="1.2" fill="#fff" opacity="0.40"/><circle cx="6" cy="267" r="1.6" fill="#fff" opacity="0.52"/><circle cx="3" cy="248" r="0.8" fill="#fff" opacity="0.89"/><circle cx="174" cy="54" r="1.2" fill="#fff" opacity="0.70"/><circle cx="279" cy="14" r="0.8" fill="#fff" opacity="0.72"/><circle cx="208" cy="89" r="1.6" fill="#fff" opacity="0.65"/><circle cx="15" cy="203" r="1.6" fill="#fff" opacity="0.75"/><circle cx="376" cy="235" r="1.2" fill="#fff" opacity="0.56"/><circle cx="293" cy="141" r="1.6" fill="#fff" opacity="0.67"/><circle cx="293" cy="257" r="1.2" fill="#fff" opacity="0.45"/><circle cx="92" cy="253" r="0.8" fill="#fff" opacity="0.80"/><circle cx="73" cy="370" r="1.2" fill="#fff" opacity="0.83"/><circle cx="247" cy="309" r="1.6" fill="#fff" opacity="0.80"/><circle cx="324" cy="297" r="1.6" fill="#fff" opacity="0.61"/><circle cx="356" cy="87" r="0.8" fill="#fff" opacity="0.84"/><circle cx="376" cy="268" r="0.8" fill="#fff" opacity="0.61"/><circle cx="216" cy="74" r="1.6" fill="#fff" opacity="0.51"/><circle cx="268" cy="341" r="1.2" fill="#fff" opacity="0.64"/><circle cx="2" cy="148" r="1.6" fill="#fff" opacity="0.59"/><circle cx="176" cy="206" r="1.2" fill="#fff" opacity="0.31"/><circle cx="400" cy="272" r="1.6" fill="#fff" opacity="0.77"/><circle cx="232" cy="62" r="1.2" fill="#fff" opacity="0.35"/><circle cx="70" cy="139" r="1.6" fill="#fff" opacity="0.73"/><circle cx="112" cy="234" r="1.6" fill="#fff" opacity="0.41"/><circle cx="91" cy="224" r="1.2" fill="#fff" opacity="0.47"/><circle cx="277" cy="328" r="1.6" fill="#fff" opacity="0.67"/><circle cx="393" cy="236" r="1.6" fill="#fff" opacity="0.83"/><circle cx="98" cy="180" r="0.8" fill="#fff" opacity="0.45"/><circle cx="41" cy="295" r="1.2" fill="#fff" opacity="0.72"/><circle cx="276" cy="349" r="1.6" fill="#fff" opacity="0.38"/><circle cx="15" cy="98" r="1.6" fill="#fff" opacity="0.60"/><circle cx="159" cy="148" r="0.8" fill="#fff" opacity="0.84"/><circle cx="370" cy="131" r="1.6" fill="#fff" opacity="0.48"/><circle cx="372" cy="159" r="1.2" fill="#fff" opacity="0.41"/><circle cx="90" cy="3" r="0.8" fill="#fff" opacity="0.80"/><circle cx="105" cy="154" r="1.6" fill="#fff" opacity="0.57"/><circle cx="306" cy="97" r="0.8" fill="#fff" opacity="0.45"/><circle cx="144" cy="324" r="1.2" fill="#fff" opacity="0.62"/><circle cx="248" cy="209" r="0.8" fill="#fff" opacity="0.88"/><circle cx="110" cy="244" r="0.8" fill="#fff" opacity="0.75"/><circle cx="102" cy="108" r="0.8" fill="#fff" opacity="0.37"/><circle cx="7" cy="46" r="1.6" fill="#fff" opacity="0.79"/><circle cx="198" cy="64" r="1.6" fill="#fff" opacity="0.64"/>
+  <circle cx="164" cy="241" r="90" fill="url(#astro)"/>
+  <polygon points="0,600 0,396 40,370 80,348 120,336 160,373 200,362 240,375 280,379 320,338 360,353 400,339 400,600" fill="#000" opacity="0.35"/>
+  <polygon points="0,600 0,431 40,428 80,432 120,398 160,393 200,420 240,424 280,399 320,395 360,414 400,414 400,600" fill="#000" opacity="0.6"/>
+  <text x="200" y="44" text-anchor="middle" font-size="15" font-weight="700" fill="#fff" opacity="0.85" letter-spacing="6">MANGEFLIX</text>
+  <rect x="150" y="62" width="100" height="26" rx="13" fill="#000" opacity="0.35"/>
+  <text x="200" y="80" text-anchor="middle" font-size="13" fill="#fff" letter-spacing="2">DRAMA</text>
+  <text x="200" y="470" text-anchor="middle" font-size="38" font-weight="800" fill="#fff" letter-spacing="1">ENTRE MUNDOS</text>
+  <text x="200" y="572" text-anchor="middle" font-size="16" fill="#fff" opacity="0.75" letter-spacing="4">2022</text>
+</svg>

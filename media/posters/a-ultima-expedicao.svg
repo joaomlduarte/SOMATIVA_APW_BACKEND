@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#13a085"/>
+      <stop offset="0.75" stop-color="#02251d"/>
+    </linearGradient>
+    <radialGradient id="astro">
+      <stop offset="0" stop-color="#a8ffe4" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#a8ffe4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#fundo)"/>
+  <circle cx="160" cy="159" r="1.6" fill="#fff" opacity="0.71"/><circle cx="350" cy="201" r="1.2" fill="#fff" opacity="0.56"/><circle cx="77" cy="78" r="1.6" fill="#fff" opacity="0.52"/><circle cx="245" cy="155" r="1.6" fill="#fff" opacity="0.54"/><circle cx="62" cy="313" r="0.8" fill="#fff" opacity="0.47"/><circle cx="253" cy="249" r="0.8" fill="#fff" opacity="0.34"/><circle cx="48" cy="149" r="1.2" fill="#fff" opacity="0.35"/><circle cx="342" cy="127" r="0.8" fill="#fff" opacity="0.36"/><circle cx="121" cy="96" r="1.6" fill="#fff" opacity="0.33"/><circle cx="93" cy="221" r="1.6" fill="#fff" opacity="0.41"/><circle cx="194" cy="49" r="0.8" fill="#fff" opacity="0.59"/><circle cx="276" cy="204" r="0.8" fill="#fff" opacity="0.33"/><circle cx="147" cy="307" r="1.6" fill="#fff" opacity="0.57"/><circle cx="217" cy="85" r="1.6" fill="#fff" opacity="0.54"/><circle cx="80" cy="252" r="0.8" fill="#fff" opacity="0.46"/><circle cx="172" cy="169" r="0.8" fill="#fff" opacity="0.50"/><circle cx="364" cy="357" r="1.2" fill="#fff" opacity="0.85"/><circle cx="93" cy="78" r="1.6" fill="#fff" opacity="0.79"/><circle cx="124" cy="99" r="1.2" fill="#fff" opacity="0.88"/><circle cx="16" cy="38" r="1.6" fill="#fff" opacity="0.77"/><circle cx="54" cy="119" r="1.2" fill="#fff" opacity="0.43"/><circle cx="228" cy="123" r="0.8" fill="#fff" opacity="0.52"/><circle cx="36" cy="189" r="1.6" fill="#fff" opacity="0.69"/><circle cx="138" cy="47" r="0.8" fill="#fff" opacity="0.49"/><circle cx="163" cy="202" r="0.8" fill="#fff" opacity="0.66"/><circle cx="179" cy="233" r="1.6" fill="#fff" opacity="0.75"/><circle cx="341" cy="169" r="0.8" fill="#fff" opacity="0.34"/><circle cx="334" cy="46" r="1.6" fill="#fff" opacity="0.83"/><circle cx="380" cy="373" r="1.2" fill="#fff" opacity="0.67"/><circle cx="315" cy="215" r="0.8" fill="#fff" opacity="0.58"/><circle cx="247" cy="272" r="0.8" fill="#fff" opacity="0.73"/><circle cx="50" cy="345" r="0.8" fill="#fff" opacity="0.62"/><circle cx="242" cy="192" r="1.6" fill="#fff" opacity="0.88"/><circle cx="211" cy="32" r="0.8" fill="#fff" opacity="0.40"/><circle cx="382" cy="103" r="1.2" fill="#fff" opacity="0.71"/><circle cx="38" cy="325" r="1.6" fill="#fff" opacity="0.57"/><circle cx="362" cy="64" r="1.6" fill="#fff" opacity="0.56"/><circle cx="223" cy="40" r="1.6" fill="#fff" opacity="0.32"/><circle cx="284" cy="49" r="0.8" fill="#fff" opacity="0.54"/><circle cx="119" cy="265" r="1.2" fill="#fff" opacity="0.57"/><circle cx="39" cy="229" r="0.8" fill="#fff" opacity="0.70"/><circle cx="282" cy="127" r="1.2" fill="#fff" opacity="0.82"/><circle cx="52" cy="319" r="1.2" fill="#fff" opacity="0.31"/><circle cx="304" cy="358" r="0.8" fill="#fff" opacity="0.61"/><circle cx="164" cy="188" r="1.2" fill="#fff" opacity="0.66"/>
+  <circle cx="185" cy="177" r="82" fill="url(#astro)"/>
+  <polygon points="0,600 0,362 40,341 80,357 120,393 160,359 200,334 240,382 280,364 320,334 360,376 400,331 400,600" fill="#000" opacity="0.35"/>
+  <polygon points="0,600 0,438 40,392 80,408 120,428 160,415 200,431 240,411 280,426 320,412 360,425 400,429 400,600" fill="#000" opacity="0.6"/>
+  <text x="200" y="44" text-anchor="middle" font-size="15" font-weight="700" fill="#fff" opacity="0.85" letter-spacing="6">MANGEFLIX</text>
+  <rect x="150" y="62" width="100" height="26" rx="13" fill="#000" opacity="0.35"/>
+  <text x="200" y="80" text-anchor="middle" font-size="13" fill="#fff" letter-spacing="2">AVENTURA</text>
+  <text x="200" y="448" text-anchor="middle" font-size="38" font-weight="800" fill="#fff" letter-spacing="1">A ÚLTIMA</text><text x="200" y="492" text-anchor="middle" font-size="38" font-weight="800" fill="#fff" letter-spacing="1">EXPEDIÇÃO</text>
+  <text x="200" y="572" text-anchor="middle" font-size="16" fill="#fff" opacity="0.75" letter-spacing="4">2021</text>
+</svg>

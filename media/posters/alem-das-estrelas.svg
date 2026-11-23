@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f6bff"/>
+      <stop offset="0.75" stop-color="#04041a"/>
+    </linearGradient>
+    <radialGradient id="astro">
+      <stop offset="0" stop-color="#a9c8ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#a9c8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#fundo)"/>
+  <circle cx="165" cy="371" r="1.2" fill="#fff" opacity="0.73"/><circle cx="334" cy="33" r="0.8" fill="#fff" opacity="0.41"/><circle cx="76" cy="236" r="1.2" fill="#fff" opacity="0.87"/><circle cx="188" cy="314" r="0.8" fill="#fff" opacity="0.81"/><circle cx="312" cy="100" r="1.2" fill="#fff" opacity="0.82"/><circle cx="199" cy="24" r="1.2" fill="#fff" opacity="0.60"/><circle cx="221" cy="230" r="1.6" fill="#fff" opacity="0.35"/><circle cx="310" cy="363" r="0.8" fill="#fff" opacity="0.66"/><circle cx="394" cy="216" r="0.8" fill="#fff" opacity="0.65"/><circle cx="220" cy="223" r="1.6" fill="#fff" opacity="0.51"/><circle cx="374" cy="179" r="0.8" fill="#fff" opacity="0.79"/><circle cx="17" cy="177" r="1.6" fill="#fff" opacity="0.70"/><circle cx="227" cy="338" r="1.2" fill="#fff" opacity="0.35"/><circle cx="272" cy="361" r="1.6" fill="#fff" opacity="0.85"/><circle cx="263" cy="348" r="1.6" fill="#fff" opacity="0.36"/><circle cx="0" cy="23" r="1.6" fill="#fff" opacity="0.45"/><circle cx="372" cy="292" r="1.2" fill="#fff" opacity="0.51"/><circle cx="32" cy="41" r="0.8" fill="#fff" opacity="0.32"/><circle cx="176" cy="376" r="0.8" fill="#fff" opacity="0.63"/><circle cx="111" cy="185" r="0.8" fill="#fff" opacity="0.71"/><circle cx="47" cy="266" r="1.6" fill="#fff" opacity="0.84"/><circle cx="194" cy="67" r="0.8" fill="#fff" opacity="0.79"/><circle cx="258" cy="267" r="1.2" fill="#fff" opacity="0.61"/><circle cx="4" cy="260" r="1.6" fill="#fff" opacity="0.69"/><circle cx="38" cy="190" r="0.8" fill="#fff" opacity="0.72"/><circle cx="368" cy="24" r="1.6" fill="#fff" opacity="0.83"/><circle cx="342" cy="41" r="1.6" fill="#fff" opacity="0.33"/><circle cx="2" cy="12" r="0.8" fill="#fff" opacity="0.38"/><circle cx="32" cy="49" r="0.8" fill="#fff" opacity="0.44"/><circle cx="168" cy="333" r="1.2" fill="#fff" opacity="0.68"/><circle cx="178" cy="22" r="1.6" fill="#fff" opacity="0.72"/><circle cx="103" cy="370" r="0.8" fill="#fff" opacity="0.89"/><circle cx="381" cy="27" r="0.8" fill="#fff" opacity="0.43"/><circle cx="90" cy="191" r="1.6" fill="#fff" opacity="0.37"/><circle cx="163" cy="364" r="0.8" fill="#fff" opacity="0.51"/><circle cx="235" cy="360" r="1.6" fill="#fff" opacity="0.65"/><circle cx="228" cy="299" r="0.8" fill="#fff" opacity="0.38"/><circle cx="31" cy="35" r="0.8" fill="#fff" opacity="0.79"/><circle cx="61" cy="118" r="1.6" fill="#fff" opacity="0.35"/><circle cx="48" cy="195" r="0.8" fill="#fff" opacity="0.39"/><circle cx="148" cy="88" r="0.8" fill="#fff" opacity="0.61"/><circle cx="102" cy="197" r="1.6" fill="#fff" opacity="0.41"/><circle cx="297" cy="85" r="1.6" fill="#fff" opacity="0.87"/><circle cx="89" cy="151" r="1.2" fill="#fff" opacity="0.58"/><circle cx="118" cy="225" r="1.2" fill="#fff" opacity="0.52"/>
+  <circle cx="178" cy="201" r="80" fill="url(#astro)"/>
+  <polygon points="0,600 0,384 40,370 80,388 120,369 160,363 200,340 240,364 280,392 320,390 360,384 400,361 400,600" fill="#000" opacity="0.35"/>
+  <polygon points="0,600 0,393 40,438 80,417 120,403 160,390 200,436 240,423 280,431 320,403 360,406 400,398 400,600" fill="#000" opacity="0.6"/>
+  <text x="200" y="44" text-anchor="middle" font-size="15" font-weight="700" fill="#fff" opacity="0.85" letter-spacing="6">MANGEFLIX</text>
+  <rect x="150" y="62" width="100" height="26" rx="13" fill="#000" opacity="0.35"/>
+  <text x="200" y="80" text-anchor="middle" font-size="13" fill="#fff" letter-spacing="2">FICÇÃO</text>
+  <text x="200" y="448" text-anchor="middle" font-size="38" font-weight="800" fill="#fff" letter-spacing="1">ALÉM DAS</text><text x="200" y="492" text-anchor="middle" font-size="38" font-weight="800" fill="#fff" letter-spacing="1">ESTRELAS</text>
+  <text x="200" y="572" text-anchor="middle" font-size="16" fill="#fff" opacity="0.75" letter-spacing="4">2024</text>
+</svg>

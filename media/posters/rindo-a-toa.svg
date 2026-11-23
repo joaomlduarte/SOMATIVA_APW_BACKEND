@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb300"/>
+      <stop offset="0.75" stop-color="#5a1f00"/>
+    </linearGradient>
+    <radialGradient id="astro">
+      <stop offset="0" stop-color="#fff3b0" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fff3b0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#fundo)"/>
+  <circle cx="176" cy="234" r="0.8" fill="#fff" opacity="0.77"/><circle cx="302" cy="223" r="1.6" fill="#fff" opacity="0.58"/><circle cx="243" cy="226" r="0.8" fill="#fff" opacity="0.81"/><circle cx="396" cy="129" r="1.2" fill="#fff" opacity="0.61"/><circle cx="386" cy="185" r="1.2" fill="#fff" opacity="0.45"/><circle cx="274" cy="348" r="0.8" fill="#fff" opacity="0.45"/><circle cx="161" cy="253" r="1.6" fill="#fff" opacity="0.77"/><circle cx="331" cy="301" r="0.8" fill="#fff" opacity="0.56"/><circle cx="209" cy="179" r="1.2" fill="#fff" opacity="0.60"/><circle cx="230" cy="322" r="1.6" fill="#fff" opacity="0.48"/><circle cx="98" cy="328" r="1.2" fill="#fff" opacity="0.31"/><circle cx="130" cy="137" r="1.2" fill="#fff" opacity="0.78"/><circle cx="8" cy="52" r="0.8" fill="#fff" opacity="0.61"/><circle cx="17" cy="358" r="0.8" fill="#fff" opacity="0.68"/><circle cx="400" cy="149" r="1.6" fill="#fff" opacity="0.55"/><circle cx="35" cy="232" r="1.2" fill="#fff" opacity="0.42"/><circle cx="351" cy="45" r="1.2" fill="#fff" opacity="0.44"/><circle cx="249" cy="378" r="0.8" fill="#fff" opacity="0.82"/><circle cx="109" cy="176" r="0.8" fill="#fff" opacity="0.76"/><circle cx="267" cy="7" r="1.6" fill="#fff" opacity="0.33"/><circle cx="202" cy="232" r="0.8" fill="#fff" opacity="0.74"/><circle cx="113" cy="103" r="0.8" fill="#fff" opacity="0.52"/><circle cx="100" cy="204" r="0.8" fill="#fff" opacity="0.74"/><circle cx="338" cy="352" r="0.8" fill="#fff" opacity="0.32"/><circle cx="152" cy="207" r="1.6" fill="#fff" opacity="0.38"/><circle cx="141" cy="218" r="0.8" fill="#fff" opacity="0.59"/><circle cx="215" cy="368" r="1.6" fill="#fff" opacity="0.49"/><circle cx="207" cy="71" r="0.8" fill="#fff" opacity="0.49"/><circle cx="212" cy="349" r="1.6" fill="#fff" opacity="0.43"/><circle cx="95" cy="144" r="0.8" fill="#fff" opacity="0.83"/><circle cx="129" cy="321" r="1.2" fill="#fff" opacity="0.47"/><circle cx="370" cy="238" r="0.8" fill="#fff" opacity="0.75"/><circle cx="102" cy="50" r="1.6" fill="#fff" opacity="0.66"/><circle cx="72" cy="68" r="0.8" fill="#fff" opacity="0.70"/><circle cx="97" cy="323" r="1.2" fill="#fff" opacity="0.62"/><circle cx="311" cy="177" r="1.2" fill="#fff" opacity="0.38"/><circle cx="60" cy="67" r="1.6" fill="#fff" opacity="0.54"/><circle cx="194" cy="87" r="1.2" fill="#fff" opacity="0.33"/><circle cx="313" cy="339" r="1.2" fill="#fff" opacity="0.81"/><circle cx="335" cy="65" r="1.6" fill="#fff" opacity="0.56"/><circle cx="52" cy="262" r="1.2" fill="#fff" opacity="0.40"/><circle cx="336" cy="58" r="1.2" fill="#fff" opacity="0.57"/><circle cx="306" cy="121" r="0.8" fill="#fff" opacity="0.71"/><circle cx="251" cy="173" r="0.8" fill="#fff" opacity="0.48"/><circle cx="206" cy="321" r="1.2" fill="#fff" opacity="0.80"/>
+  <circle cx="162" cy="176" r="84" fill="url(#astro)"/>
+  <polygon points="0,600 0,336 40,389 80,388 120,385 160,373 200,358 240,400 280,377 320,341 360,354 400,334 400,600" fill="#000" opacity="0.35"/>
+  <polygon points="0,600 0,417 40,411 80,434 120,392 160,419 200,400 240,417 280,424 320,419 360,402 400,404 400,600" fill="#000" opacity="0.6"/>
+  <text x="200" y="44" text-anchor="middle" font-size="15" font-weight="700" fill="#fff" opacity="0.85" letter-spacing="6">MANGEFLIX</text>
+  <rect x="150" y="62" width="100" height="26" rx="13" fill="#000" opacity="0.35"/>
+  <text x="200" y="80" text-anchor="middle" font-size="13" fill="#fff" letter-spacing="2">COMÉDIA</text>
+  <text x="200" y="470" text-anchor="middle" font-size="38" font-weight="800" fill="#fff" letter-spacing="1">RINDO À TOA</text>
+  <text x="200" y="572" text-anchor="middle" font-size="16" fill="#fff" opacity="0.75" letter-spacing="4">2023</text>
+</svg>

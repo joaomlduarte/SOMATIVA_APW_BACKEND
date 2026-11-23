@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb300"/>
+      <stop offset="0.75" stop-color="#5a1f00"/>
+    </linearGradient>
+    <radialGradient id="astro">
+      <stop offset="0" stop-color="#fff3b0" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fff3b0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#fundo)"/>
+  <circle cx="188" cy="150" r="1.2" fill="#fff" opacity="0.59"/><circle cx="266" cy="239" r="1.2" fill="#fff" opacity="0.66"/><circle cx="345" cy="22" r="0.8" fill="#fff" opacity="0.81"/><circle cx="155" cy="95" r="1.2" fill="#fff" opacity="0.68"/><circle cx="208" cy="60" r="1.6" fill="#fff" opacity="0.37"/><circle cx="359" cy="42" r="1.2" fill="#fff" opacity="0.72"/><circle cx="89" cy="219" r="1.6" fill="#fff" opacity="0.30"/><circle cx="229" cy="148" r="1.2" fill="#fff" opacity="0.77"/><circle cx="220" cy="375" r="1.6" fill="#fff" opacity="0.44"/><circle cx="100" cy="32" r="0.8" fill="#fff" opacity="0.68"/><circle cx="296" cy="251" r="1.6" fill="#fff" opacity="0.87"/><circle cx="163" cy="314" r="0.8" fill="#fff" opacity="0.38"/><circle cx="65" cy="377" r="1.2" fill="#fff" opacity="0.51"/><circle cx="347" cy="42" r="0.8" fill="#fff" opacity="0.43"/><circle cx="26" cy="266" r="0.8" fill="#fff" opacity="0.84"/><circle cx="75" cy="185" r="1.2" fill="#fff" opacity="0.77"/><circle cx="336" cy="269" r="1.2" fill="#fff" opacity="0.84"/><circle cx="391" cy="378" r="1.2" fill="#fff" opacity="0.39"/><circle cx="120" cy="309" r="1.6" fill="#fff" opacity="0.64"/><circle cx="313" cy="287" r="1.2" fill="#fff" opacity="0.60"/><circle cx="241" cy="89" r="1.6" fill="#fff" opacity="0.41"/><circle cx="82" cy="32" r="0.8" fill="#fff" opacity="0.42"/><circle cx="363" cy="364" r="1.6" fill="#fff" opacity="0.52"/><circle cx="4" cy="57" r="1.6" fill="#fff" opacity="0.46"/><circle cx="162" cy="108" r="1.6" fill="#fff" opacity="0.85"/><circle cx="367" cy="126" r="1.6" fill="#fff" opacity="0.38"/><circle cx="29" cy="201" r="0.8" fill="#fff" opacity="0.58"/><circle cx="164" cy="253" r="0.8" fill="#fff" opacity="0.81"/><circle cx="177" cy="210" r="1.6" fill="#fff" opacity="0.50"/><circle cx="61" cy="201" r="1.2" fill="#fff" opacity="0.35"/><circle cx="78" cy="290" r="0.8" fill="#fff" opacity="0.73"/><circle cx="4" cy="65" r="1.6" fill="#fff" opacity="0.41"/><circle cx="285" cy="369" r="1.2" fill="#fff" opacity="0.87"/><circle cx="221" cy="281" r="0.8" fill="#fff" opacity="0.38"/><circle cx="70" cy="163" r="1.2" fill="#fff" opacity="0.34"/><circle cx="29" cy="163" r="1.2" fill="#fff" opacity="0.57"/><circle cx="122" cy="323" r="1.2" fill="#fff" opacity="0.72"/><circle cx="341" cy="115" r="0.8" fill="#fff" opacity="0.70"/><circle cx="345" cy="98" r="0.8" fill="#fff" opacity="0.51"/><circle cx="109" cy="225" r="0.8" fill="#fff" opacity="0.54"/><circle cx="9" cy="37" r="1.6" fill="#fff" opacity="0.77"/><circle cx="84" cy="205" r="1.6" fill="#fff" opacity="0.88"/><circle cx="36" cy="203" r="1.6" fill="#fff" opacity="0.59"/><circle cx="353" cy="114" r="0.8" fill="#fff" opacity="0.81"/><circle cx="177" cy="250" r="0.8" fill="#fff" opacity="0.87"/>
+  <circle cx="171" cy="202" r="104" fill="url(#astro)"/>
+  <polygon points="0,600 0,365 40,380 80,364 120,384 160,338 200,335 240,399 280,344 320,371 360,356 400,336 400,600" fill="#000" opacity="0.35"/>
+  <polygon points="0,600 0,435 40,399 80,407 120,414 160,399 200,436 240,408 280,417 320,427 360,402 400,412 400,600" fill="#000" opacity="0.6"/>
+  <text x="200" y="44" text-anchor="middle" font-size="15" font-weight="700" fill="#fff" opacity="0.85" letter-spacing="6">MANGEFLIX</text>
+  <rect x="150" y="62" width="100" height="26" rx="13" fill="#000" opacity="0.35"/>
+  <text x="200" y="80" text-anchor="middle" font-size="13" fill="#fff" letter-spacing="2">COMÉDIA</text>
+  <text x="200" y="448" text-anchor="middle" font-size="38" font-weight="800" fill="#fff" letter-spacing="1">CASAMENTO EM</text><text x="200" y="492" text-anchor="middle" font-size="38" font-weight="800" fill="#fff" letter-spacing="1">APUROS</text>
+  <text x="200" y="572" text-anchor="middle" font-size="16" fill="#fff" opacity="0.75" letter-spacing="4">2021</text>
+</svg>
