@@ -28,6 +28,10 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = lista_do_ambiente('ALLOWED_HOSTS', 'localhost,127.0.0.1')
 
+# Em produção (Railway) o Django fica atrás de um proxy HTTPS
+CSRF_TRUSTED_ORIGINS = lista_do_ambiente('CSRF_TRUSTED_ORIGINS')
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -44,6 +48,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -74,7 +79,8 @@ WSGI_APPLICATION = 'mangeflix.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # No Railway o arquivo fica em um volume persistente (DATABASE_PATH=/data/db.sqlite3)
+        'NAME': os.getenv('DATABASE_PATH', BASE_DIR / 'db.sqlite3'),
     }
 }
 
@@ -91,6 +97,8 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = 'static/'
+# O WhiteNoise serve o CSS do Django Admin direto dos apps (sem precisar de collectstatic)
+WHITENOISE_USE_FINDERS = True
 
 # Pôsteres dos filmes (enviados pelo Django Admin ou criados na migração inicial)
 MEDIA_URL = '/media/'

@@ -4,6 +4,8 @@ API REST da plataforma **MangeFlix**, desenvolvida com **Django REST Framework**
 Ela cuida de cadastro, login com JWT, catálogo de filmes e favoritos de cada usuário.
 
 > Frontend (Vue.js): https://github.com/joaomlduarte/SOMATIVA_APW_FRONTEND
+>
+> **No ar (Railway):** app em https://frontend-production-dc1ee1f6.up.railway.app, API em https://backend-production-a2814271.up.railway.app/api/
 
 ## Tecnologias
 
@@ -12,6 +14,7 @@ Ela cuida de cadastro, login com JWT, catálogo de filmes e favoritos de cada us
 - django-cors-headers (liberação do frontend)
 - python-dotenv (variáveis de ambiente)
 - SQLite (banco de dados, acessado pelo ORM do Django)
+- Gunicorn e WhiteNoise (servidor e arquivos estáticos em produção)
 
 ## Estrutura
 
@@ -95,6 +98,31 @@ python manage.py test
 ```
 
 São 20 testes unitários: cadastro, validações, login por usuário e por e-mail, credenciais inválidas, proteção das rotas, favorito duplicado, isolamento dos favoritos entre usuários e remoção.
+
+## Publicação no Railway
+
+O projeto `SOMATIVA_APW` no Railway tem dois serviços, `backend` e `frontend`, e roda no plano gratuito.
+O backend foi publicado a partir desta pasta com o Railway CLI:
+
+```powershell
+railway up --service backend
+```
+
+O Railpack detecta o Django, roda `python manage.py migrate` e sobe o `gunicorn`.
+O banco SQLite fica em um volume montado em `/data`, então usuários e favoritos continuam salvos entre deploys.
+
+Variáveis do serviço `backend` no Railway:
+
+| Variável | Valor |
+|---|---|
+| `SECRET_KEY` | chave aleatória (só no Railway) |
+| `DEBUG` | `False` |
+| `ALLOWED_HOSTS` | `backend-production-a2814271.up.railway.app` |
+| `CSRF_TRUSTED_ORIGINS` | `https://backend-production-a2814271.up.railway.app` |
+| `CORS_ALLOWED_ORIGINS` | `https://frontend-production-dc1ee1f6.up.railway.app` |
+| `DATABASE_PATH` | `/data/db.sqlite3` |
+
+No plano gratuito o serviço "dorme" depois de alguns minutos sem acesso. A primeira requisição seguinte demora alguns segundos para acordar.
 
 ## CI/CD e branches
 
